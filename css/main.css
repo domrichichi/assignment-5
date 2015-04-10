@@ -1,0 +1,45 @@
+html {												/*PUT THIS AT THE TOP OF ALL CSS FILES*/
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {						/*allows you to target everything on the webpage*/
+	box sizing: inherit;
+}
+
+.inset {
+	float: left;
+	width: 50%;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.p2 {
+	clear:both;
+}
+
+.clear-it {
+	clear: left;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+div {
+	background-color: blue;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+main {
+	background-color: green;
+	float:left;
+	width: calc(75%-2em);
+	padding: 1em;
+}
+
+	aside {
+		background-color: limegreen;
+		float:left;
+		width: calc(25 - 2em)%;
+		padding: 1em;
+	}
+
